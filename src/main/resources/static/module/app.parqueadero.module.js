@@ -1,6 +1,4 @@
 (function () {
     'use strict';
-
-    angular.module('app.biblioteca', [
-    ]);
-})  ();
+    angular.module('app.biblioteca', []);
+})();
