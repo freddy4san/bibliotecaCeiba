@@ -5,14 +5,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity(name = "inventario")
-public class Inventario {
+public class InventarioEntity {
     @Id
     @GeneratedValue
     private Long id;
     private String ISBN;
     private Long cantidadT;
 
-    public Inventario(String ISBN, Long cantidadT) {
+    public InventarioEntity(String ISBN, Long cantidadT) {
         this.ISBN = ISBN;
         this.cantidadT = cantidadT;
     }

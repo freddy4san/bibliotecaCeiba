@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import java.util.Date;
 
 @Entity(name = "libro")
-public class Libro {
+public class LibroEntity {
     @Id
     @GeneratedValue
     private Long id;
@@ -18,7 +18,7 @@ public class Libro {
     private Date fechaActualizada;
 
 
-    public Libro(Long id, String ISBN, boolean prestado, String nombre, Long ejemplar, Date fechaCreada, Date fechaActualizada) {
+    public LibroEntity(Long id, String ISBN, boolean prestado, String nombre, Long ejemplar, Date fechaCreada, Date fechaActualizada) {
         super();
         this.id = id;
         this.ISBN = ISBN;
