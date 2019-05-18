@@ -16,7 +16,7 @@
     function serviciosListaLibros() {
         return $http({
             method: 'GET',
-            url: '',
+            url: 'https://localhost:8080/prueba',
         }).then(function (response) {
             return response.data;
         }).catch(function (data) {
