@@ -8,9 +8,7 @@
         var servicios = {
             serviciosListaLibros: serviciosListaLibros
         };
-
         return servicios;
-
     }
 
     function serviciosListaLibros() {
