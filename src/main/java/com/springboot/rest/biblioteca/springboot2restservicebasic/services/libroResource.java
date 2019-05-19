@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -25,13 +26,18 @@ public class LibroResource {
 	}
 	
 	@GetMapping("/libros/{id}")
-	public Libro retrieveStudent(@PathVariable long id) {
+	public Libro consultarLibro(@PathVariable long id) {
 		Optional<Libro> student = libroRepository.findById(id);
 
 		if (!student.isPresent())
 			throw new LibroNotFoundException("id-" + id);
 
 		return student.get();
+	}
+	
+	@DeleteMapping("/libros/{id}")
+	public  void eliminarLibro(@PathVariable long id) {
+		libroRepository.deleteById(id);
 	}
 	
 	@GetMapping("/prueba")
