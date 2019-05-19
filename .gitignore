@@ -27,3 +27,27 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+bin/.mvn/wrapper/maven-wrapper.jar
+bin/.mvn/wrapper/maven-wrapper.properties
+bin/.mvn/wrapper/MavenWrapperDownloader.class
+bin/mvnw
+bin/mvnw.cmd
+bin/pom.xml
+bin/src/main/java/com/springboot/rest/biblioteca/springboot2restservicebasic/InventarioEntity.class
+bin/src/main/java/com/springboot/rest/biblioteca/springboot2restservicebasic/LibroEntity.class
+bin/src/main/java/com/springboot/rest/biblioteca/springboot2restservicebasic/PrestamoEntity.class
+bin/src/main/java/com/springboot/rest/biblioteca/springboot2restservicebasic/services/libroResource.class
+bin/src/main/java/com/springboot/rest/biblioteca/springboot2restservicebasic/SpringBoot2RestServiceBasicApplication.class
+bin/src/main/java/com/springboot/rest/biblioteca/springboot2restserviceController/libroControlador.class
+bin/src/main/java/com/springboot/rest/biblioteca/springboot2restserviceDao/libroDao.class
+bin/src/main/java/com/springboot/rest/biblioteca/springboot2restserviceDao/libroDaoImp.class
+bin/src/main/java/com/springboot/rest/biblioteca/springboot2restserviceLibroService/libroServicio.class
+bin/src/main/resources/application.properties
+bin/src/main/resources/data.sql
+bin/src/main/resources/static/index.html
+bin/src/main/resources/static/index.js
+bin/src/main/resources/static/module/app.parqueadero.module.js
+bin/src/main/resources/static/service/librosService.js
+bin/src/test/java/com/springboot/rest/biblioteca/springboot2restservicebasic/SpringBoot2RestServiceBasicApplicationTests.class
+src/main/java/com/springboot/rest/biblioteca/springboot2restservicebasic/SpringBoot2RestServiceBasicApplication.java
+bin/.mvn/wrapper/maven-wrapper.jar
