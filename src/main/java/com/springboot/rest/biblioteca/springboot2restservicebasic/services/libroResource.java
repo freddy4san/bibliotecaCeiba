@@ -2,25 +2,23 @@ package com.springboot.rest.biblioteca.springboot2restservicebasic.services;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springboot.rest.biblioteca.springboot2restservicebasic.Libro;
+import com.springboot.rest.biblioteca.springboot2restservicebasic.entity.Libro;
+import com.springboot.rest.biblioteca.springboot2restservicebasic.repository.LibroRepository;
 
 @RestController
-public class libroResource {
+public class LibroResource {
+	
+	@Autowired
+	private LibroRepository libroRepository;
 	
 	
 	@GetMapping("/libros")
 	public List<Libro> retrieveAllStudents() {
-		//return studentRepository.findAll();
-		Libro libro1 = new Libro((long) 1, "123456", false);
-		ArrayList<Libro> datos = new ArrayList<Libro>();
-		
-		datos.add(libro1);
-		
-		
-		return datos;
+		return libroRepository.findAll();
 	}
 	
 	@GetMapping("/prueba")
