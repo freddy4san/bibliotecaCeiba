@@ -1,9 +1,10 @@
-package com.springboot.rest.biblioteca.springboot2restservicebasic.repository;
+package com.biblioteca.repository;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.stereotype.Repository;
 
-import com.springboot.rest.biblioteca.springboot2restservicebasic.entity.LibroEntity;
+import com.biblioteca.entity.LibroEntity;
+
 
 @Repository
 public interface LibroRepository extends PagingAndSortingRepository<LibroEntity, Long> {

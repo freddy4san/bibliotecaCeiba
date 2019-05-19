@@ -1,4 +1,4 @@
-package com.springboot.rest.biblioteca.springboot2restservicebasic.entity;
+package com.biblioteca.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

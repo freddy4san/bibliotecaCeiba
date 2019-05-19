@@ -1,9 +1,10 @@
-package com.springboot.rest.biblioteca.springboot2restservicebasic.entity;
+package com.biblioteca.entity;
+
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import java.util.Date;
 
 @Entity(name = "libro")
 public class LibroEntity {

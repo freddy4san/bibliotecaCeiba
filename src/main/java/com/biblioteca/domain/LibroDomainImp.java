@@ -1,12 +1,16 @@
-package com.springboot.rest.biblioteca.springboot2restservicebasic.domain;
+package com.biblioteca.domain;
+
+
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.springboot.rest.biblioteca.springboot2restservicebasic.entity.LibroEntity;
-import com.springboot.rest.biblioteca.springboot2restservicebasic.repository.LibroRepository;
+import com.biblioteca.entity.LibroEntity;
+import com.biblioteca.repository.LibroRepository;
+
+
 
 @Service
 public class LibroDomainImp  implements LibroDomain{

@@ -1,4 +1,4 @@
-package com.springboot.rest.biblioteca.springboot2restservicebasic.controller;
+package com.biblioteca.controller;
 
 import java.util.List;
 
@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.springboot.rest.biblioteca.springboot2restservicebasic.domain.LibroDomain;
-import com.springboot.rest.biblioteca.springboot2restservicebasic.entity.LibroEntity;
-
-//import com.springboot.rest.biblioteca.springboot2restservicebasic.Libro;
+import com.biblioteca.domain.LibroDomain;
+import com.biblioteca.entity.LibroEntity;
 
 @RestController
 @RequestMapping("libros")
