@@ -16,7 +16,10 @@ public class libroResource {
 		//return studentRepository.findAll();
 		Libro libro1 = new Libro((long) 1, "123456", false);
 		ArrayList<Libro> datos = new ArrayList<Libro>();
+		
 		datos.add(libro1);
+		
+		
 		return datos;
 	}
 	
