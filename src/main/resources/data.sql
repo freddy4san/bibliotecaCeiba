@@ -1,5 +1,12 @@
-insert into LIBRO 
-values(10001, 'A1234568',true);
-
-insert into LIBRO 
-values(10002, 'E1234568',false);
+insert into libro(id, ISBN, ejemplar, fecha_actualizada, fecha_creada, nombre,prestado) values (1, 'ASU123RT', 1, NOW(),NOW(),'programacion 1', 'false');
+insert into libro(id, ISBN, ejemplar, fecha_actualizada, fecha_creada, nombre,prestado) values (2, 'AS1233RT', 2, NOW(),NOW(),'programacion POO', 'false');
+insert into libro(id, ISBN, ejemplar, fecha_actualizada, fecha_creada, nombre,prestado) values (3, 'ASD1223RT',4 , NOW(),NOW(),'cien años de soledad', 'false');
+insert into libro(id, ISBN, ejemplar, fecha_actualizada, fecha_creada, nombre,prestado) values (4, 'AEW123RT', 1, NOW(),NOW(),'el principito', 'false');
+insert into libro(id, ISBN, ejemplar, fecha_actualizada, fecha_creada, nombre,prestado) values (5, 'HGF827RT', 1, NOW(),NOW(),'romeo y julieta', 'false');
+insert into libro(id, ISBN, ejemplar, fecha_actualizada, fecha_creada, nombre,prestado) values (6, 'AEQ183RT', 1, NOW(),NOW(),'la historia de la programacion', 'false');
+insert into inventario(id,ISBN, cantidadt) values (1,'ASU123RT',1);
+insert into inventario(id,ISBN, cantidadt) values (2,'AS1233RT',2);
+insert into inventario(id,ISBN, cantidadt) values (3,'ASD1223RT',4);
+insert into inventario(id,ISBN, cantidadt) values (4,'AEW123RT',1);
+insert into inventario(id,ISBN, cantidadt) values (5,'HGF827RT',1);
+insert into inventario(id,ISBN, cantidadt) values (6,'AEQ183RT',1);
